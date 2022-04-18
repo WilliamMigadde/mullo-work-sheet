@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border: 2px solid burlywood;
+    border-radius: 50%; 
+    background: url('./channels4_profile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 40px;
+}
+
+.agency{
+text-transform: uppercase;
+color: goldenrod;
+}
+
+.nav-list{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+padding: 0 10px;
+}
+.talent-container{
+    background-color:rgba(244, 165, 96, 0.226) ; 
+    padding: 80px;
+}
+.talent-header{
+    text-align: center;
+    text-transform: capitalize;
+}
+.talent-heading{
+    font-size: 50px;
+    font-weight: 600;
+}
+.talent-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.talent-card{
+    background-color: rgba(137, 43, 226, 0.363);
+    box-shadow:  0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+border: 2px solid #fff;
+height: 160px;
+width: 250px;
+border-radius: 15px;
+position: relative;
+margin-right: 15px;
+}
+.pic{
+width: 100px;
+height: 100px;
+border: 2px solid #fff;
+border-radius: 50%;
+box-shadow:  0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+position: absolute;
+top: 16%;
+left: 7px;
+}
+.profile{
+    text-transform: uppercase;
+text-align: center;
+font-size: 14px;
+font-weight: 600;
+padding: 7px;
+border: 2px solid #fff;
+border-radius: 5px;
+box-shadow:  0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.songs{
+    text-transform: uppercase;
+text-align: center;
+font-size: 14px;
+font-weight: 600;
+padding: 7px;
+border: 2px solid #fff;
+border-radius: 5px;
+box-shadow:  0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.footer-container{
+    padding: 100px;
+}
+.footer-list{
+    list-style-type: none;
+    line-height: 1.4; 
+    display: flex;
+}
+.list{
+    padding: 0 20px;
+    margin-right: 20px;
+}
+.footer-upper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.footer-wrapper{
+    width: 25%;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    margin-right: 10px;
+}
+.footer-bottom{
+    border-top: 10px dashed darksalmon;
+    display: flex;
+    justify-content: space-between;
+}
+.copy{
+    border-left: 2px solid violet;
+    padding: 0;
+}
